@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "t1M+VUWj9nTYYQpjLXjqf9YZ1TcWiOxM0zNXMGhbnxo9579a6QN1SLwZ7qXHoaAUYTKhdfCwsz7FWIkv+zZhZA==",
+  "success": true,
+  "projectFilePath": "/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/oblig2_webapplikasjoner.csproj",
+  "expectedPackageFiles": [
+    "/Users/priyamshrestha/.nuget/packages/microsoft.aspnetcore.nodeservices/3.1.28/microsoft.aspnetcore.nodeservices.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.aspnetcore.spaservices/3.1.28/microsoft.aspnetcore.spaservices.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.aspnetcore.spaservices.extensions/3.1.28/microsoft.aspnetcore.spaservices.extensions.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.configuration/3.1.28/microsoft.extensions.configuration.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.28/microsoft.extensions.configuration.abstractions.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.configuration.binder/3.1.28/microsoft.extensions.configuration.binder.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.28/microsoft.extensions.dependencyinjection.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.28/microsoft.extensions.dependencyinjection.abstractions.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.fileproviders.abstractions/3.1.28/microsoft.extensions.fileproviders.abstractions.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.fileproviders.physical/3.1.28/microsoft.extensions.fileproviders.physical.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.filesystemglobbing/3.1.28/microsoft.extensions.filesystemglobbing.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.logging/3.1.28/microsoft.extensions.logging.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.28/microsoft.extensions.logging.abstractions.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.logging.configuration/3.1.28/microsoft.extensions.logging.configuration.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.logging.console/3.1.28/microsoft.extensions.logging.console.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.options/3.1.28/microsoft.extensions.options.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.options.configurationextensions/3.1.28/microsoft.extensions.options.configurationextensions.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/microsoft.extensions.primitives/3.1.28/microsoft.extensions.primitives.3.1.28.nupkg.sha512",
+    "/Users/priyamshrestha/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
