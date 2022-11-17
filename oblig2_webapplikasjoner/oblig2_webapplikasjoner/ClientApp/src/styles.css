@@ -1,6 +1,7 @@
 ﻿/* You can add global styles to this file, and also import other style files */
 
 /* Provide sufficient contrast against white background */
+/*
 a {
   color: #0366d6;
 }
@@ -14,4 +15,42 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+    */
 
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.btn {
+    margin: 2px;
+}
+
+.container-fluid {
+    height: 50em;
+}
+
+.row {
+    height: 100%;
+}
+
+.side_info {
+    background-color: #F1F1F1;
+    height: auto;
+}
+
+.fakeimg {
+    padding: 10em;
+    background-color: lightcyan;
+    text-align: center;
+}

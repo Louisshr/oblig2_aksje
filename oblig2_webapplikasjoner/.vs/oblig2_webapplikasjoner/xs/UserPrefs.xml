@@ -1,4 +1,34 @@
 ﻿<Properties StartupConfiguration="{9A50C003-5ADB-465D-8593-44ABB89D8804}|Default">
-  <MonoDevelop.Ide.ItemProperties.oblig2__webapplikasjoner FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.oblig2__webapplikasjoner PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="oblig2_webapplikasjoner/ClientApp/src/app/app.component.ts">
+    <Files>
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/app.module.ts" Line="16" Column="4" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/app.component.html" Line="1" Column="8" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/app.component.ts" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="oblig2_webapplikasjoner" expanded="True">
+            <Node name="oblig2_webapplikasjoner" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="app" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
