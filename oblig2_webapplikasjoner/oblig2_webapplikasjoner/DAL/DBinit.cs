@@ -17,6 +17,11 @@ namespace oblig2_webapplikasjoner.DAL
                 context.Database.EnsureDeleted();
                 context.Database.EnsureCreated();
 
+
+                // denne må fjernes
+
+                AksjeController.counter.idc = 1;
+
                 Aksje aapl = await HentAksjer.initialiserAksje("AAPL");
                 Aksje ibm = await HentAksjer.initialiserAksje("IBM");
                 Aksje tsla = await HentAksjer.initialiserAksje("TSLA");

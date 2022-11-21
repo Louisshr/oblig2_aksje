@@ -37,6 +37,63 @@ namespace oblig2_webapplikasjoner.AksjeController
         {
             return await db.hentEn(id);
         }
+
+        [HttpGet("setCounter")]
+        public bool setCounter()
+        {
+            try
+            {
+                counter.idc = 1;
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+
+
+        [HttpPost("kjopAksje")]
+        public async Task<bool> kjopAksje(Salg innSalg)
+        {
+            return await db.kjopAksje(innSalg);
+        }
+
+
+        [HttpPost("getObj")]
+        public bool getObj(Salg innSalg)
+        {
+            return true;
+
+        }
+
+        [HttpGet("getCounter")]
+        public int getCounter()
+        {
+            return counter.idc;
+        }
+
+
+        [HttpGet("hentPortefolje")]
+        public async Task<List<Kjop>> hentPortefolje()
+        {
+            return await db.hentPortefolje(counter.idc);
+        }
+
+
+        [HttpGet("hentSaldo")]
+        public async Task<double> hentSaldo()
+        {
+            return await db.hentSaldo(counter.idc);
+        }
+
+
+        [HttpPost("selg")]
+        public async Task<bool> selg(Salg innSelg)
+        {
+            return await db.selg(innSelg);
+        }
     }
 }
 

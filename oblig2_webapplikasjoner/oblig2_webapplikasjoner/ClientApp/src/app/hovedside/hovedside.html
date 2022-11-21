@@ -23,7 +23,7 @@
                         <td>{{aksje.open}}</td>
                         <td>{{aksje.verdi}}</td>
                         <td>{{aksje.omsetning}}</td>
-                        <td> <button type='button' class='btn btn-success' (click)="visModal(aksje.id)">Kjøp</button></td>
+                        <td> <button type='button' class='btn btn-success' [routerLink]="['/kjop',aksje.id]">Kjøp</button></td>
                     </tr>
                 </tbody>
             </table>
@@ -31,15 +31,3 @@
     </div>
 </section>
 
-
-<!--
-<tr>
-    <th scope="row">TSLA</th>
-    <td>20</td>
-    <td>20</td>
-    <td>20</td>
-    <td>20</td>
-    <td>20</td>
-    <td> <button type='button' class='btn btn-success' (click)="visModal()">Kjøp</button></td>
-</tr>
--->

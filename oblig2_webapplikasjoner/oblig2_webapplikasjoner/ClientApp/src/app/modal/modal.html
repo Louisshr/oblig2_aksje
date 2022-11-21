@@ -1,24 +1,36 @@
 ﻿<div class="modal-content">
     <div class="modal-header">
-        <h5 class="modal-title">{{aksjeNavnModal}}</h5>
+        <h5 class="modal-title">{{headerModal}}</h5>
     </div>
     <div class="modal-body">
         <table class="table-borderless">
             <tbody>
                 <tr>
-                    <!-- Det som står i denne tabellcellen blir overskrift over input-boksen i pop-up boksen-->
-                    <td scope="col">{{feilmeldingModal}}</td>
+                    <th scope="col">
+                        {{headerBodyModal}}
+                    </th>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td>
+                        {{aksjeHandletModal}}
+                    </td>
                 </tr>
                 <tr>
-                    <td></td>
+                    <td>
+                        {{antallAksjerModal}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {{totalprisModal}}
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
     <div class="modal-footer">
-        <button class="btn btn-primary" (click)="modal.close('Lukk klikk')">register</button>
+        <button class="btn btn-primary" (click)="modal.close('Lukk klikk')">{{_btnLabel}}</button>
     </div>
 </div>
+
+

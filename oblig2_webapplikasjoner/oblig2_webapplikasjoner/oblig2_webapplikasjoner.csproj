@@ -18,6 +18,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.4" />
     <PackageReference Include="YahooFinanceApi" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,6 +38,10 @@
     <None Remove="ClientApp\src\app\hovedside\" />
     <None Remove="ClientApp\src\app\modal\" />
     <None Remove="ClientApp\src\app\navMeny\" />
+    <None Remove="ClientApp\src\app\kjopSide\" />
+    <None Remove="ClientApp\src\app\portefolje\" />
+    <None Remove="ClientApp\src\app\salgSide\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,6 +53,9 @@
     <Folder Include="ClientApp\src\app\hovedside\" />
     <Folder Include="ClientApp\src\app\modal\" />
     <Folder Include="ClientApp\src\app\navMeny\" />
+    <Folder Include="ClientApp\src\app\kjopSide\" />
+    <Folder Include="ClientApp\src\app\portefolje\" />
+    <Folder Include="ClientApp\src\app\salgSide\" />
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->

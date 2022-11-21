@@ -9,6 +9,10 @@ namespace oblig2_webapplikasjoner.DAL
     {
         Task<List<Aksje>> hentAksjer();
         Task<Aksje> hentEn(int id);
+        Task<bool> kjopAksje(Salg innSalg);
+        Task<List<Kjop>> hentPortefolje(int id);
+        Task<double> hentSaldo(int id);
+        Task<bool> selg(Salg innSelg);
     }
 }
 

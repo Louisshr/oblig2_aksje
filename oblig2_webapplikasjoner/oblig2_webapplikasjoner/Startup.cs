@@ -22,6 +22,14 @@ namespace oblig2_webapplikasjoner
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers();
+
+            services.AddControllers().AddNewtonsoftJson(options =>
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+        // m� v�re med n�r det skal serialiseres "kompliserte" strukturer til JSON. 
+        // i tillegg m� Microsoft.AspNetCore.NewtonsoftJson installeres som pakke
+        );
+
             services.AddDbContext<AksjeDB>(options => options.UseSqlite("Data source=Aksje.db"));
             services.AddScoped<IAksjeRepository, AksjeRepository>();
 

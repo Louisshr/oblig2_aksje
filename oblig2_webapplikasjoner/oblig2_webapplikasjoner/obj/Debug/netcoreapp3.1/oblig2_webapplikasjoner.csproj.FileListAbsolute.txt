@@ -85,3 +85,6 @@
 /Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Flurl.dll
 /Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Flurl.Http.dll
 /Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/YahooFinanceApi.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll

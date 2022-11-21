@@ -1,0 +1,32 @@
+﻿<br />
+<br />
+<div class="container">
+    <div class="col-md-4">
+
+        <form [formGroup]="Skjema" (ngSubmit)="onSubmit()">
+            <table class="table-borderless">
+                <tr>
+                    <td>
+                        <h2>{{aksjeNavnBetaling}}</h2>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input class="form-control" formControlName="inputAntall" placeholder="antall aksjer" />
+                        <p *ngIf="this.Skjema.controls.inputAntall.status=='INVALID'" style="font-size: 14px">
+                            Venligst skriv inn gyldig input
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn btn-danger" type="submit" routerLink="/hovedside">Avbryt</button>
+                        <button class="btn btn-primary" type="submit" [disabled]="!Skjema.valid">Kjøp</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+

@@ -1,0 +1,35 @@
+﻿<section class="content">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="side_info col-3 p-4">
+                <h4>Egenkapital (USD)</h4>
+                <span>{{saldoPortefolje}}</span>
+            </div>
+            <div class="col p-4">
+                <div class="col fakeimg">Graf</div>
+                <h4 class="mt-3">Mine Aksjer</h4>
+                <div>
+                    <table class="table">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col">Navn</th>
+                                <th scope="col">Antall</th>
+                                <th scope="col">Verdi (USD)</th>
+                                <th style="width: 150px" scope="col">Selg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let aksje of portefoljeListe">
+                                <th scope="row">{{aksje.aksje.navn}}</th>
+                                <td>{{aksje.antall}}</td>
+                                <td>{{aksje.pris}}</td>
+                                <td> <button type="button" class="btn btn-danger" [routerLink]="['/salgSide',aksje.aksje.id]">Selg</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

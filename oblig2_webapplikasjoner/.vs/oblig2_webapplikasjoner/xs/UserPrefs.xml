@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{9A50C003-5ADB-465D-8593-44ABB89D8804}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.oblig2__webapplikasjoner PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="oblig2_webapplikasjoner/ClientApp/src/app/app.component.ts">
+  <MonoDevelop.Ide.Workbench ActiveDocument="oblig2_webapplikasjoner/ClientApp/src/app/modal/modal.html">
     <Files>
-      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/app.module.ts" Line="16" Column="4" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/app.module.ts" Line="16" Column="1" />
       <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/app.component.html" Line="1" Column="8" />
       <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/app.component.ts" Line="11" Column="1" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/hovedside/hovedside.ts" Line="45" Column="23" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/modal/modal.html" Line="19" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +16,10 @@
             <Node name="oblig2_webapplikasjoner" expanded="True">
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
-                  <Node name="app" expanded="True" />
+                  <Node name="app" expanded="True">
+                    <Node name="hovedside" expanded="True" />
+                    <Node name="modal" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
@@ -26,9 +31,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

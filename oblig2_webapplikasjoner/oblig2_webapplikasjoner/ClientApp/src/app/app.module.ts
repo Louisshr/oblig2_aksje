@@ -13,6 +13,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { NavMeny } from './navMeny/navMeny';
 import { Hovedside } from './hovedside/hovedside';
 import { AppRoutingModule } from './app-routing.module';
+import { KjopSide } from './kjopSide/kjopSide';
+import { Portefolje } from './portefolje/portefolje';
+import { SalgSide } from './salgSide/salgSide';
 
 
 
@@ -22,7 +25,10 @@ import { AppRoutingModule } from './app-routing.module';
         AppComponent,
         Modal,
         NavMeny,
-        Hovedside
+        Hovedside,
+        KjopSide,
+        Portefolje,
+        SalgSide
   ],
   imports: [
       BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
