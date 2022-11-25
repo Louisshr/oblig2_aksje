@@ -19,6 +19,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.4" />
     <PackageReference Include="YahooFinanceApi" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.4" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,6 +43,8 @@
     <None Remove="ClientApp\src\app\portefolje\" />
     <None Remove="ClientApp\src\app\salgSide\" />
     <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
+    <None Remove="Serilog.Extensions.Logging.File" />
+    <None Remove="ClientApp\src\app\loggInn\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -56,6 +59,7 @@
     <Folder Include="ClientApp\src\app\kjopSide\" />
     <Folder Include="ClientApp\src\app\portefolje\" />
     <Folder Include="ClientApp\src\app\salgSide\" />
+    <Folder Include="ClientApp\src\app\loggInn\" />
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->

@@ -3,6 +3,11 @@ using oblig2_webapplikasjoner.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+using Serilog;
+using System.Linq;
+using System.Security.Cryptography;
+using Microsoft.Extensions.Logging;
 
 namespace oblig2_webapplikasjoner.DAL
 {
@@ -10,9 +15,12 @@ namespace oblig2_webapplikasjoner.DAL
     {
         private readonly AksjeDB db;
 
-        public AksjeRepository(AksjeDB _db)
+        private ILogger<AksjeRepository> _log;
+
+        public AksjeRepository(AksjeDB _db, ILogger<AksjeRepository> log)
         {
             db = _db;
+            _log = log;
         }
 
         public async Task<List<Aksje>> hentAksjer()
@@ -214,6 +222,50 @@ namespace oblig2_webapplikasjoner.DAL
                 return false;
             }
 
+        }
+
+
+        // nytt
+
+        public static byte[] LagHash(string passord, byte[] salt)
+        {
+            return KeyDerivation.Pbkdf2(
+                                password: passord,
+                                salt: salt,
+                                prf: KeyDerivationPrf.HMACSHA512,
+                                iterationCount: 1000,
+                                numBytesRequested: 32);
+        }
+
+        public static byte[] LagSalt()
+        {
+            var csp = new RNGCryptoServiceProvider();
+            var salt = new byte[24];
+            csp.GetBytes(salt);
+            return salt;
+        }
+
+
+        public async Task<bool> LoggInn(Bruker bruker)
+        {
+            try
+            {
+                Brukere funnetBruker = await db.brukere.FirstOrDefaultAsync(b => b.Brukernavn == bruker.Brukernavn);
+                // sjekk passordet
+                byte[] hash = LagHash(bruker.Passord, funnetBruker.Salt);
+                bool ok = hash.SequenceEqual(funnetBruker.Passord);
+                if (ok)
+                {
+                    AksjeController.counter.idc = funnetBruker.person.id;
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception e)
+            {
+                _log.LogInformation(e.Message);
+                return false;
+            }
         }
     }
 }

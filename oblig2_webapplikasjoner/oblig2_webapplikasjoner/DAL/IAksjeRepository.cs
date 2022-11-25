@@ -13,6 +13,7 @@ namespace oblig2_webapplikasjoner.DAL
         Task<List<Kjop>> hentPortefolje(int id);
         Task<double> hentSaldo(int id);
         Task<bool> selg(Salg innSelg);
+        Task<bool> LoggInn(Bruker bruker);
     }
 }
 

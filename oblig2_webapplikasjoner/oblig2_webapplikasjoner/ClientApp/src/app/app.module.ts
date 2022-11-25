@@ -16,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { KjopSide } from './kjopSide/kjopSide';
 import { Portefolje } from './portefolje/portefolje';
 import { SalgSide } from './salgSide/salgSide';
+import { LoggInn } from './loggInn/loggInn';
 
 
 
@@ -28,7 +29,8 @@ import { SalgSide } from './salgSide/salgSide';
         Hovedside,
         KjopSide,
         Portefolje,
-        SalgSide
+        SalgSide,
+        LoggInn
   ],
   imports: [
       BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

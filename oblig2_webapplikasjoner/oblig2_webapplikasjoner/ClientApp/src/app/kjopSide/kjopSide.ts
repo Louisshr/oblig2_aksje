@@ -71,7 +71,7 @@ export class KjopSide {
 
                     modalRef.componentInstance.aksjeHandletModal = "Aksje handlet: " + this.aksjeBetaling.navn;
                     modalRef.componentInstance.antallAksjerModal = "Antall: " + antall;
-                    modalRef.componentInstance.totalprisModal = "Totalpris: " + totalpris + " $";
+                    modalRef.componentInstance.totalprisModal = "Totalpris: " + totalpris.toFixed(2) + " $";
                     modalRef.componentInstance._btnLabel = "Ok";
                 }
                 else {

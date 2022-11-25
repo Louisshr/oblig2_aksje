@@ -88,3 +88,10 @@
 /Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
 /Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Serilog.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Serilog.Extensions.Logging.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Serilog.Extensions.Logging.File.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Serilog.Formatting.Compact.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Serilog.Sinks.Async.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Serilog.Sinks.File.dll
+/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner/bin/Debug/netcoreapp3.1/Serilog.Sinks.RollingFile.dll

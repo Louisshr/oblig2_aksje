@@ -22,7 +22,7 @@
                             <tr *ngFor="let aksje of portefoljeListe">
                                 <th scope="row">{{aksje.aksje.navn}}</th>
                                 <td>{{aksje.antall}}</td>
-                                <td>{{aksje.pris}}</td>
+                                <td>{{aksje.pris | number : '.2-2'}}</td>
                                 <td> <button type="button" class="btn btn-danger" [routerLink]="['/salgSide',aksje.aksje.id]">Selg</button></td>
                             </tr>
                         </tbody>

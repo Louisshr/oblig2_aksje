@@ -32,8 +32,17 @@ namespace oblig2_webapplikasjoner.DAL
         virtual public List<Kjop> aksjer { get; set; }
     }
 
+    public class Brukere
+    {
+        public int id { get; set; }
+        public string Brukernavn { get; set; }
+        public byte[] Passord { get; set; }
+        public byte[] Salt { get; set; }
+        virtual public Person person { get; set; }
+    }
+
     public class AksjeDB : DbContext
-	{
+    {
         public AksjeDB(DbContextOptions<AksjeDB> options) : base(options)
         {
             Database.EnsureCreated();
@@ -43,6 +52,8 @@ namespace oblig2_webapplikasjoner.DAL
         public DbSet<Kjop> kjopt { get; set; }
         public DbSet<Person> personer { get; set; }
         public DbSet<Portfolje> porteFoljer { get; set; }
+        public DbSet<Brukere> brukere { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

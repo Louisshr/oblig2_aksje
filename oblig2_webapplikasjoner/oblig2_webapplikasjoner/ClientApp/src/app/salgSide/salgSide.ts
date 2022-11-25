@@ -70,7 +70,7 @@ export class SalgSide {
 
                     modalRef.componentInstance.aksjeHandletModal = "Aksje solgt: " + this.aksjeSalg.navn;
                     modalRef.componentInstance.antallAksjerModal = "Antall: " + antall;
-                    modalRef.componentInstance.totalprisModal = "Totalpris for salg: " + totalpris + " $";
+                    modalRef.componentInstance.totalprisModal = "Totalpris for salg: " + totalpris.toFixed(2) + " $";
                     modalRef.componentInstance._btnLabel = "Ok";
                 }
                 else {

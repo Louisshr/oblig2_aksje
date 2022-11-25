@@ -1,0 +1,56 @@
+2022-11-22T15:32:22.4473470+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-11-22T15:32:22.4510720+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-11-22T15:32:22.4515390+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-22T15:32:22.4515910+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-22T15:32:22.4516300+01:00  [INF] Content root path: "/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner" (b5d60022)
+2022-11-22T15:32:32.2707890+01:00  [ERR] (node:9011) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (63d593ea)
+2022-11-22T15:32:32.2716950+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2022-11-22T15:51:53.4280800+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-11-22T15:51:53.4324240+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-11-22T15:51:53.4328800+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-22T15:51:53.4329190+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-22T15:51:53.4329540+01:00  [INF] Content root path: "/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner" (b5d60022)
+2022-11-22T15:52:03.0739380+01:00  [ERR] (node:9070) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (64773173)
+2022-11-22T15:52:03.0749700+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2022-11-22T15:52:34.5214380+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-11-22T15:52:34.5251910+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-11-22T15:52:34.5257360+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-22T15:52:34.5258010+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-22T15:52:34.5258430+01:00  [INF] Content root path: "/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner" (b5d60022)
+2022-11-22T15:52:43.2212890+01:00  [ERR] (node:9092) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (36eb8d32)
+2022-11-22T15:52:43.2219290+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2022-11-22T15:52:50.5856120+01:00 0HMMCJ4OB4727:00000005 [INF] Fant ikke akjsen! (73551436)
+2022-11-22T15:54:33.7258890+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-11-22T15:54:33.7298730+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-11-22T15:54:33.7302760+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-22T15:54:33.7303150+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-22T15:54:33.7303760+01:00  [INF] Content root path: "/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner" (b5d60022)
+2022-11-22T15:54:42.4079640+01:00  [ERR] (node:9124) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (741eca96)
+2022-11-22T15:54:42.4087150+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2022-11-22T15:55:59.2314270+01:00  [ERR]     ERROR in src/app/hovedside/hovedside.ts(30,24): error TS2304: Cannot find name 'bool'.
+    
+ (4f969b0e)
+2022-11-22T15:57:15.6343660+01:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-11-22T15:57:15.6380760+01:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2022-11-22T15:57:15.6384630+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-11-22T15:57:15.6385010+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-11-22T15:57:15.6385430+01:00  [INF] Content root path: "/Users/priyamshrestha/Desktop/ITPE - 3200/oblig_2/oblig2_aksje/oblig2_webapplikasjoner/oblig2_webapplikasjoner" (b5d60022)
+2022-11-22T15:57:23.9332450+01:00  [ERR] (node:9154) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+ (66e8a266)
+2022-11-22T15:57:23.9340780+01:00  [ERR] (Use `node --trace-deprecation ...` to show where the warning was created)
+ (567f389e)
+2022-11-22T15:57:25.2647510+01:00  [ERR] ERROR in app/hovedside/hovedside.ts:30:24 - error TS2304: Cannot find name 'bool'.
+
+30         this._http.get<bool>("api/Aksje/logg")
+                          ~~~~
+
+ (4180c01b)
+2022-11-22T15:57:52.1406080+01:00 0HMMCJ7C4BMMG:00000004 [INF] Dette er en logg (d3c1c267)

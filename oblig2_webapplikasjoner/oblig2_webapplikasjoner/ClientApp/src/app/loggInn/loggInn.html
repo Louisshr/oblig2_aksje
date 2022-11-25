@@ -1,0 +1,24 @@
+﻿<div class="container ">
+    ﻿<div class="card" style="width:50%; margin:auto; display:block;">
+        <img ng-src="Logo.png" style="width:50%; margin:auto; display: block;" class="mb-2" />
+        <h1 class="card-header" style="color:black">Login</h1>
+        <div class="card-body">
+
+            <form class="form" [formGroup]="LoggInnSkjema" (ngSubmit)="onSubmit()">
+
+                <div class="form-group">
+                    <input class="form-control" formControlName="inputBrukernavn" placeholder="brukernavn" />
+                    <span *ngIf="this.LoggInnSkjema.controls.inputBrukernavn.status=='INVALID'" style="color: red">Venligst skriv inn ett gyldig brukernavn</span>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" formControlName="inputPassord" placeholder="passord" />
+                    <span style="color: red">{{feilPassord}}</span>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit" [disabled]="!LoggInnSkjema.valid">Logg inn</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

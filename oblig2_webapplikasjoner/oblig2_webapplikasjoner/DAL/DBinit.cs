@@ -17,11 +17,6 @@ namespace oblig2_webapplikasjoner.DAL
                 context.Database.EnsureDeleted();
                 context.Database.EnsureCreated();
 
-
-                // denne må fjernes
-
-                AksjeController.counter.idc = 1;
-
                 Aksje aapl = await HentAksjer.initialiserAksje("AAPL");
                 Aksje ibm = await HentAksjer.initialiserAksje("IBM");
                 Aksje tsla = await HentAksjer.initialiserAksje("TSLA");
@@ -55,6 +50,20 @@ namespace oblig2_webapplikasjoner.DAL
 
                 context.personer.Add(nyPerson);
                 context.porteFoljer.Add(nyPortfolje);
+
+                // lag en påoggingsbruker
+                var bruker = new Brukere();
+                bruker.Brukernavn = "Siem";
+                string passord = "Oslomet11";
+                byte[] salt = AksjeRepository.LagSalt();
+                byte[] hash = AksjeRepository.LagHash(passord, salt);
+                bruker.Passord = hash;
+                bruker.Salt = salt;
+                bruker.person = nyPerson;
+
+                AksjeController.counter.idc = 1;
+
+                context.brukere.Add(bruker);
                 context.SaveChanges();
             }
         }
