@@ -11,7 +11,7 @@
                     <span *ngIf="this.LoggInnSkjema.controls.inputBrukernavn.status=='INVALID'" style="color: red">Venligst skriv inn ett gyldig brukernavn</span>
                 </div>
                 <div class="form-group">
-                    <input class="form-control" formControlName="inputPassord" placeholder="passord" />
+                    <input class="form-control" formControlName="inputPassord" placeholder="passord" type="password"/>
                     <span style="color: red">{{feilPassord}}</span>
                 </div>
                 <div class="form-group">

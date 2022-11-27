@@ -26,6 +26,9 @@ export class Portefolje {
                     if (error.status == 401) {
                         this.router.navigate(['/loggInn']);
                     }
+                    if (error.status == 404) {
+                        this.saldoPortefolje = "Det har oppstått en feil, saldo kan ikke hentes";
+                    }
                 }
             )
 

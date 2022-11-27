@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{9A50C003-5ADB-465D-8593-44ABB89D8804}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="oblig2_webapplikasjoner/DAL/AksjeDB.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="oblig2_webapplikasjoner/ClientApp/src/app/loggInn/loggInn.html">
     <Files>
       <File FileName="oblig2_webapplikasjoner/DAL/AksjeDB.cs" Line="14" Column="41" />
       <File FileName="oblig2_webapplikasjoner/DAL/DBinit.cs" Line="1" Column="1" />
-      <File FileName="../../../Angular_introduksjon/Modal/Modal/DAL/DatabaseDB.cs" Line="54" Column="9" NotebookId="1" />
-      <File FileName="../../../Angular_introduksjon/Modal/Modal/DAL/DBinit.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/app-routing.module.ts" Line="1" Column="1" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/hovedside/hovedside.ts" Line="1" Column="1" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/hovedside/hovedside.html" Line="1" Column="1" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/navMeny/navMeny.html" Line="1" Column="1" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/loggInn/loggInn.ts" Line="1" Column="1" />
+      <File FileName="oblig2_webapplikasjoner/ClientApp/src/app/loggInn/loggInn.html" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +20,9 @@
                 <Node name="src" expanded="True">
                   <Node name="app" expanded="True">
                     <Node name="hovedside" expanded="True" />
+                    <Node name="loggInn" expanded="True" />
                     <Node name="modal" expanded="True" />
+                    <Node name="navMeny" expanded="True" />
                   </Node>
                   <Node name="environments" expanded="True" />
                 </Node>
@@ -33,10 +38,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.oblig2__webapplikasjoner PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.oblig2__webapplikasjoner PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
